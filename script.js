@@ -9,7 +9,7 @@ let projectarray= [
   ' Book Assignment 1: Web Map Creation',
   'View a small tour of Philadelphia',
   true,
-  ['earthquakes', 'usgs']
+  ['Philadelphia', 'tour']
 ]
 
 let projectObject = [
@@ -18,7 +18,7 @@ let projectObject = [
   title: 'Book Assignment 1: Web Map Creation'
   description: 'View a small tour of Philadelphia'
   hasThumbnail: true
-  keywords: ['earthquakes', 'usgs']
+  keywords: ['Philadelphia', 'tour']
 ]
 
 console.log(projectarray)
