@@ -17,11 +17,9 @@ let projects = [
   project2
 ]
 for (let i = 0; i < projects.length; i++) {
-  // more code goes here
+  if (projects[i].hasThumbnail === true) {
+  console.log('images/ss-project-' + projects[i].id + '.png') // build and log an image file name based on the project ID
+}
 }
 console.log('Element ' + i + ' title: ' + projects[i].title) // log the current project's title
 console.log('images/ss-project-' + projects[i].id + '.png') // build and log an image file name based on the project ID
-
-if (projects[i].hasThumbnail === true) {
-  console.log('images/ss-project-' + projects[i].id + '.png') // build and log an image file name based on the project ID
-}
