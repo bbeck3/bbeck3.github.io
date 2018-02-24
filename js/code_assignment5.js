@@ -9,7 +9,7 @@ let project2 = {
   id: 2,
   title: 'Book Assignment 2',
   hasThumbnail: true
-  url:
+  url:'https://arcg.is/0445am'
   description:'Click here to see a web application that is a world Map of significant earthquakes in the past 30 days'
 }
 let projects = [
