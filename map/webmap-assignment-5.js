@@ -15,11 +15,18 @@ let myBasemaps = {
   'Satellite': satelliteBasemap
 }
 
-L.control.layers(myBasemaps).addTo(map5)
-
 let myControlOptions = {
   collapsed: false
 }
+
+let newOrleans = L.marker([30,-90]).addTo(map5)
+
+let opLayers = {
+  'marker': newOrleans
+}
+
+L.control.layers(myBasemaps,opLayers,myControlOptions).addTo(map5)
+
 
 geoJSONstyle = function (state){
   let popmales = state.properties.MALES
